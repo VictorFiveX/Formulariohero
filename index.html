@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="fuction.js"></script>
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div>
+
+
+    <img id="sph" src="gifs/sphomemvoando1.gif" alt="inicio">
+    <img id="homemsuper" src="gifs/supermantrocaroupa.gif" alt="trocaroupa">
+    <img id="sphup" src="gifs/subindo.gif" alt="subino">
+
+
+    <form class="grid" action="v1/AddHeroi.php" method="post">
+
+        <h1>Formulario de Herois</h1>
+        <h2>Insira as informacoes</h2>
+        <img id="varioshero" src="gifs/varioshero.gif" alt="varioshero">
+        <img id="varioshero1" src="gifs/varioshero.gif" alt="varioshero">
+       
+        <p id="id">Id:</p> 
+        <input type="text" name="Id" id="idp">
+        <p id="namehero">Nome de Heroi:</p>
+        <input type="text" name="name" id="heronamep">
+        <p id="realname">Nome Verdadeiro: </p>
+        <input type="text" name="realname" id="realname">
+        <p id="team">Time Afiliado:</p>
+        <input type="text" name="teamaffiliation" id="teamp">
+        <p id="Avaliacao">Avaliacao:</p>
+        <input type="number" name="rating" id="rating">
+
+
+            <button id="submit" type="submit">Enviar</button>
+            <button id="reset" type="reset">Limpar</button>
+            <button id="del" type="submit" formaction="deletar.html">Deletar</button>
+            <button id="alter" type="submit" formaction="alterar.html" >Alterar</button>
+    
+   
+
+            <img id="hero" src="gifs/hero.gif" alt="hero">
+    
+
+ 
+
+    </form>
+
+    </div>
+
+
+    
+</body>
+</html>

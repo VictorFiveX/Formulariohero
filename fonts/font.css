@@ -1,0 +1,53 @@
+/*@font-face {
+    font-family: SUPERHERO;
+    src: local(SUPERHERO), url(SUPERHERO.ttf);
+    
+}
+
+h1{
+    font-family: SUPERHERO;
+}
+
+h2{
+    font-family: SUPERHERO;
+}
+
+p{
+    font-family: SUPERHERO;
+}
+
+@font-face {
+    font-family: Superhero2;
+    src: local(Superhero2), url(Superhero2.ttf);
+    
+}
+
+h1{
+    font-family: Superhero2;
+}
+
+h2{
+    font-family: Superhero2;
+}
+p{
+    font-family: SUPERHERO;
+}
+*/
+
+@font-face {
+    font-family: Avenger;
+    src: local(Avenger), url(Avenger.ttf);
+    
+}
+
+h1{
+    font-family: Avenger;
+}
+
+h2{
+    font-family: Avenger;
+}
+p{
+    font-family: Avenger;
+}
+
